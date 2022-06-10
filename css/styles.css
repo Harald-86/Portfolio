@@ -47,6 +47,11 @@ body {
   margin-top: 6rem;
 }
 
+.student {
+  -webkit-text-decoration: underline #ffff00;
+          text-decoration: underline #ffff00;
+}
+
 #hello,
 #title {
   font-family: "play", sans-serif;

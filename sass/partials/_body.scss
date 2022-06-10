@@ -1,8 +1,8 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 
 body {
   height: 100vh;
@@ -15,12 +15,10 @@ body {
 
 //form
 
-.form-control {
+/* .form-control {
   max-width: 600px;
-}
+} */
 .form-adjustment {
-  justify-content: center;
-  margin-top: 15rem;
   h1 {
     color: $my-aqua;
   }
@@ -43,17 +41,11 @@ body {
   margin-top: 6rem;
 }
 
-.student {
+/* .student {
   text-decoration: underline $my-yellow;
-}
+} */
 
 //scroll
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 section {
   height: 100vh;
@@ -65,21 +57,15 @@ section {
   scroll-snap-align: start;
 }
 
-.container-xl {
-  width: 100% !important;
+.container {
+  min-width: 100%;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
 }
 
-.two {
-  background-color: rgb(12, 17, 16);
-}
-
-.three {
-  background-color: rgb(41, 68, 59);
-}
-
+.two,
+.three,
 .four {
   background-color: $primary;
 }

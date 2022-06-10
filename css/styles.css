@@ -4,12 +4,14 @@
   background: linear-gradient($primary, $gradient);
 }
  */
-/* * {
+@import url("https://fonts.googleapis.com/css2?family=Licorice&family=Play:wght@400;700&family=Poppins:wght@400;700&display=swap");
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-} */
-@import url("https://fonts.googleapis.com/css2?family=Licorice&family=Play:wght@400;700&family=Poppins:wght@400;700&display=swap");
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   height: 100vh;
   background-image: url(../../images/profil_small2.png);
@@ -19,17 +21,9 @@ body {
   background-size: cover;
 }
 
-.form-control {
+/* .form-control {
   max-width: 600px;
-}
-
-.form-adjustment {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 15rem;
-}
-
+} */
 .form-adjustment h1, .form-adjustment .h1 {
   color: #00ffec;
 }
@@ -53,18 +47,9 @@ body {
   margin-top: 6rem;
 }
 
-.student {
-  -webkit-text-decoration: underline #ffff00;
-          text-decoration: underline #ffff00;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
+/* .student {
+  text-decoration: underline $my-yellow;
+} */
 section {
   height: 100vh;
   margin: 0;
@@ -81,22 +66,16 @@ section {
   scroll-snap-align: start;
 }
 
-.container-xl {
-  width: 100% !important;
+.container {
+  min-width: 100%;
   -ms-scroll-snap-type: y mandatory;
       scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
 }
 
-.two {
-  background-color: #0c1110;
-}
-
-.three {
-  background-color: #29443b;
-}
-
+.two,
+.three,
 .four {
   background-color: #1f2833;
 }
@@ -882,7 +861,7 @@ progress {
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 3440px;
+    max-width: 1140px;
   }
 }
 

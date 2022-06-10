@@ -8,7 +8,7 @@
     <title>Hello | I am Harald Tomter</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><span class="h">H</span><span class="arald">arald</span></a>
         <button
@@ -25,19 +25,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#section-two">My work</a>
+              <a class="nav-link" aria-current="page" href="#section-two"
+                ><span data-bs-toggle="collapse" ` data-bs-target=".navbar-collapse">My work</span></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section-three">This is me</a>
+              <a class="nav-link" href="#section-three"
+                ><span data-bs-toggle="collapse" ` data-bs-target=".navbar-collapse">This is me</span></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section-four">Contact</a>
+              <a class="nav-link" href="#section-four"
+                ><span data-bs-toggle="collapse" ` data-bs-target=".navbar-collapse">Contact</span></a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container-xl">
+    <div class="container">
       <section class="one" id="section-one">
         <div class="row">
           <div class="col-12">
@@ -58,24 +64,24 @@
       <section class="three" id="section-three">
         <h1>Third section</h1>
       </section>
+      <!-- Form section-->
       <section class="four" id="section-four">
-        <h1>contact section</h1>
-      </section>
-    </div>
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="hello-box">
-            <h1 id="hello">Hello my name is</h1>
-
-            <img src="images/signature.png" alt="my signature" class="signature" />
-            <div class="title-box">
-              <h3 id="title">frontend Dev <span class="student">Student</span></h3>
-            </div>
+        <div class="row">
+          <div class="form-adjustment">
+            <h1>Contact me</h1>
+            <form action="https://formsubmit.co/morten.tomter@hotmail.com" method="POST">
+              <input class="form-control" type="email" name="email" required placeholder="Email" />
+              <input type="hidden" name="_next" value="https://courageous-phoenix-e071de.netlify.app/thanks.html" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input class="form-control" type="text" name="subject" required placeholder="subject" />
+              <textarea class="form-control" name="textarea" required></textarea>
+              <button class="btn btn-primary" type="submit">Send</button>
+            </form>
           </div>
         </div>
-      </div>
-    </div> -->
+      </section>
+    </div>
+
     <script src="js/index.js" type="module"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

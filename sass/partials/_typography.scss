@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Licorice&family=Play:wght@400;700&family=Poppins:wght@400;700&display=swap");
+
+#hello,
+#title {
+  font-family: "play", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#hello {
+  font-size: 3.375rem;
+  color: $my-aqua;
+}
+
+#name {
+  font-family: "licorice", sans-serif;
+  font-size: 5.313rem;
+  color: $my-yellow;
+}
+
+#title {
+  color: #c5c6c7;
+  font-size: 2rem;
+}

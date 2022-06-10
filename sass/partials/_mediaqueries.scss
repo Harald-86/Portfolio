@@ -1,0 +1,27 @@
+//Large
+@media screen and (max-width: 992px) {
+  body {
+    background-image: url(../../images/profil_small_opacity.png);
+  }
+  #hello {
+    font-size: 46px;
+    color: $my-aqua;
+  }
+}
+//Medium
+@media screen and (max-width: 768px) {
+  #hello {
+    font-size: 36px;
+    color: $my-aqua;
+  }
+}
+//Small
+@media screen and (max-width: 576px) {
+  #hello {
+    font-size: 36px;
+    color: $my-aqua;
+  }
+  .signature {
+    width: 90%;
+  }
+}

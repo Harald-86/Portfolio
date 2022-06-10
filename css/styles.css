@@ -90,10 +90,10 @@ section {
 #section-three .bi-arrow-up-circle,
 #section-four .bi-arrow-up-circle {
   color: #ffff00;
-  font-size: 3rem;
+  font-size: 2rem;
   position: absolute;
-  bottom: 1rem;
-  right: 5rem;
+  bottom: 0;
+  right: 2rem;
 }
 
 #hello,

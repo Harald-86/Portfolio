@@ -13,6 +13,10 @@ body {
   background-size: cover;
 }
 
+form {
+  margin-top: 20rem;
+}
+
 #hello,
 #title {
   font-family: "play", sans-serif;

@@ -80,6 +80,22 @@ section {
   background-color: #1f2833;
 }
 
+#section-two,
+#section-three,
+#section-four {
+  position: relative;
+}
+
+#section-two .bi-arrow-up-circle,
+#section-three .bi-arrow-up-circle,
+#section-four .bi-arrow-up-circle {
+  color: #ffff00;
+  font-size: 3rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 5rem;
+}
+
 #hello,
 #title {
   font-family: "play", sans-serif;

@@ -69,3 +69,15 @@ section {
 .four {
   background-color: $primary;
 }
+#section-two,
+#section-three,
+#section-four {
+  position: relative;
+  .bi-arrow-up-circle {
+    color: $my-yellow;
+    font-size: 3rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 5rem;
+  }
+}

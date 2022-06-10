@@ -1,3 +1,9 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 body {
   height: 100vh;
   background-image: url(../../images/profil_small2.png);
@@ -39,4 +45,41 @@ body {
 
 .student {
   text-decoration: underline $my-yellow;
+}
+
+//scroll
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  scroll-snap-align: start;
+}
+
+.container-xl {
+  width: 100% !important;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.two {
+  background-color: rgb(12, 17, 16);
+}
+
+.three {
+  background-color: rgb(41, 68, 59);
+}
+
+.four {
+  background-color: $primary;
 }

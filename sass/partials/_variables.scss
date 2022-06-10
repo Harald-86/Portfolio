@@ -1,3 +1,4 @@
+/* $enable-container-classes: false; */
 /* $enable-gradients: true; */
 $primary: #1f2833;
 $my-yellow: #ffff00;
@@ -5,3 +6,11 @@ $my-aqua: #00ffec;
 $link-color: $my-yellow;
 $nav-link-color: $my-yellow;
 $body-bg: $primary;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 3440px,
+  xxl: 1320px,
+);

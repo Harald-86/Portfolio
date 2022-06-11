@@ -18,14 +18,20 @@ body {
 /* .form-control {
   max-width: 600px;
 } */
-.form-adjustment {
-  h1 {
-    color: $my-aqua;
+
+#section-four {
+  .row {
+    width: 40%;
   }
-  form {
-    .form-control {
-      color: #fff !important;
-      margin-top: 0.5rem;
+  .form-adjustment {
+    h1 {
+      color: $my-aqua;
+    }
+    form {
+      .form-control {
+        color: #fff !important;
+        margin-top: 0.5rem;
+      }
     }
   }
 }

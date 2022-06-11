@@ -27,17 +27,17 @@
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#section-two"
-                ><span data-bs-toggle="collapse" ` data-bs-target=".navbar-collapse">My work</span></a
+                ><span data-bs-toggle="collapse" ` data-bs-target=".navbar-collapse">this is me</span></a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#section-three"
-                ><span data-bs-toggle="collapse" ` data-bs-target=".navbar-collapse">This is me</span></a
+                ><span data-bs-toggle="collapse" ` data-bs-target=".navbar-collapse">my work</span></a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#section-four"
-                ><span data-bs-toggle="collapse" ` data-bs-target=".navbar-collapse">Contact</span></a
+                ><span data-bs-toggle="collapse" ` data-bs-target=".navbar-collapse">say hi</span></a
               >
             </li>
           </ul>
@@ -60,7 +60,31 @@
         </div>
       </section>
       <section class="two" id="section-two">
-        <h1>Second section</h1>
+        <h1>Hi</h1>
+        <!--  <div class="row row-me">
+          <div class="col-12 col-md-6 col-me-1">
+            <i class="bi bi-filetype-html"></i>
+            <i class="bi bi-filetype-css"></i>
+            <i class="bi bi-filetype-scss"></i>
+            <i class="bi bi-filetype-sass"></i>
+            <i class="bi bi-filetype-js"></i>
+          </div>
+          <div class="col-12 col-md-6 col-me-2">
+            <a href="https://code.visualstudio.com/"
+              ><img src="images/vscode.png" alt="Logo Visual Studio Code" class="logo"
+            /></a>
+            <a href="https://www.adobe.com/"><img src="images/adobe_xd.png" alt="Logo Adobe XD" class="logo" /></a>
+            <a href="https://www.adobe.com/"
+              ><img src="images/adobe_photoshop.png" alt="Logo Adobe photoshop" class="logo"
+            /></a>
+            <a href="https://www.postman.com/"
+              ><img src="images/pm-orange-logo-horiz.svg" alt="Logo Adobe photoshop" class="pm-logo"
+            /></a>
+            <a href="https://www.github.com/"
+              ><img src="images/GitHub_Logo_White.png" alt="Github logo" class="pm-logo"
+            /></a>
+          </div>
+        </div> -->
         <a href="#section-one"><i class="bi bi-arrow-up-circle"></i></a>
       </section>
       <section class="three" id="section-three">
@@ -73,11 +97,23 @@
           <div class="form-adjustment">
             <h1>Contact me</h1>
             <form action="https://formsubmit.co/morten.tomter@hotmail.com" method="POST">
-              <input class="form-control" type="email" name="email" required placeholder="Email" />
+              <input class="form-control" type="email" name="email" required placeholder="Email (required)" />
               <input type="hidden" name="_next" value="https://courageous-phoenix-e071de.netlify.app/thanks.html" />
               <input type="hidden" name="_captcha" value="false" />
-              <input class="form-control" type="text" name="subject" required placeholder="subject" />
-              <textarea class="form-control" name="textarea" required></textarea>
+              <input
+                class="form-control input-lg"
+                type="text"
+                name="subject"
+                required
+                placeholder="Subject (required)"
+              />
+              <textarea
+                rows="9"
+                class="form-control"
+                name="textarea"
+                required
+                placeholder="Write me a message (required)"
+              ></textarea>
               <button class="btn btn-primary" type="submit">Send</button>
             </form>
           </div>

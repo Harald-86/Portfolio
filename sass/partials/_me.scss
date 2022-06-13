@@ -44,15 +44,15 @@
   } */
 }
 
-#section-two .container .row {
+/* #section-two .container .row {
   width: 100%;
 }
 #section-two .container .row .col-12 {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.2);
+  flex-wrap: wrap;*/
+/* From https://css.glass */
+/*background: rgba(255, 255, 255, 0.2);
 
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -62,9 +62,9 @@
     text-align: center;
     width: 100%;
   }
-}
+} */
 
-#section-two .container .row .col-left,
+/* #section-two .container .row .col-left,
 #section-two .container .row .col-right {
   height: 320px;
 }
@@ -74,7 +74,7 @@
 }
 #section-two .container .row .col-right {
   border-radius: 0 16px 16px 0;
-}
+} */
 
 .file-type {
   display: flex;

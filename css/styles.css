@@ -223,34 +223,26 @@ nav {
   } */
 }
 
-#section-two .container .row {
+/* #section-two .container .row {
   width: 100%;
 }
-
 #section-two .container .row .col-12 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.2);
-  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  flex-wrap: wrap;*/
+/* From https://css.glass */
+/*background: rgba(255, 255, 255, 0.2);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-#section-two .container .row .col-12 h2, #section-two .container .row .col-12 .h2 {
-  text-align: center;
-  width: 100%;
-}
-
-#section-two .container .row .col-left,
+  h2 {
+    text-align: center;
+    width: 100%;
+  }
+} */
+/* #section-two .container .row .col-left,
 #section-two .container .row .col-right {
   height: 320px;
 }
@@ -258,11 +250,9 @@ nav {
 #section-two .container .row .col-left {
   border-radius: 16px 0 0 16px;
 }
-
 #section-two .container .row .col-right {
   border-radius: 0 16px 16px 0;
-}
-
+} */
 .file-type {
   display: -webkit-box;
   display: -ms-flexbox;

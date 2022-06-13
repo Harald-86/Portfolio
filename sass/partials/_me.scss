@@ -1,5 +1,8 @@
-#section-two {
-  h1 {
+#section-two .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*   h1 {
     display: block;
     width: 100%;
     text-align: center;
@@ -38,5 +41,72 @@
     align-items: center;
     width: 50%;
     height: auto;
+  } */
+}
+
+#section-two .container .row {
+  width: 100%;
+}
+#section-two .container .row .col-12 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  h2 {
+    text-align: center;
+    width: 100%;
   }
 }
+
+#section-two .container .row .col-left,
+#section-two .container .row .col-right {
+  height: 320px;
+}
+
+#section-two .container .row .col-left {
+  border-radius: 16px 0 0 16px;
+}
+#section-two .container .row .col-right {
+  border-radius: 0 16px 16px 0;
+}
+
+.file-type {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+
+  i {
+    font-size: 2.5rem;
+    color: $my-yellow;
+  }
+}
+
+.apps {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  .logo {
+    width: 48px;
+    height: 48px;
+    margin-left: 2rem;
+  }
+
+  .pm-logo {
+    height: 52px;
+    width: auto;
+    margin-left: 1.2rem;
+  }
+}
+
+/* .portrait {
+  border-radius: 100%;
+  width: 150px;
+  height: 200px;
+} */

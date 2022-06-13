@@ -15,11 +15,7 @@ body {
 
 //form
 
-/* .form-control {
-  max-width: 600px;
-} */
-
-#section-four {
+#section-five {
   .row {
     width: 40%;
   }
@@ -47,10 +43,6 @@ body {
   margin-top: 6rem;
 }
 
-/* .student {
-  text-decoration: underline $my-yellow;
-} */
-
 //scroll
 
 section {
@@ -72,12 +64,14 @@ section {
 
 .two,
 .three,
-.four {
+.four,
+.five {
   background-color: $primary;
 }
 #section-two,
 #section-three,
-#section-four {
+#section-four,
+#section-five {
   position: relative;
   .bi-arrow-up-circle {
     color: $my-yellow;

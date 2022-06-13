@@ -1,6 +1,6 @@
 //Large
 @media screen and (max-width: 992px) {
-  #section-four {
+  #section-five {
     .row {
       width: 90%;
     }
@@ -18,6 +18,12 @@
   #hello {
     font-size: 36px;
     color: $my-aqua;
+  }
+  #section-two .container .row .col-left {
+    border-radius: 16px 16px 0 0;
+  }
+  #section-two .container .row .col-right {
+    border-radius: 0 0 16px 16px;
   }
 }
 //Small

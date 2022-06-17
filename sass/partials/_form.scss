@@ -1,0 +1,31 @@
+#section-five {
+  .row {
+    width: 40%;
+  }
+  .form-adjustment {
+    h2 {
+      color: $my-aqua;
+    }
+    form {
+      .form-control {
+        color: #fff !important;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}
+
+// thank u
+
+.thank-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-family: "play", sans-serif;
+    color: $my-aqua;
+  }
+  a {
+    font-size: 1rem;
+  }
+}

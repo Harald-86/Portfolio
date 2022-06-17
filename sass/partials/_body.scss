@@ -13,36 +13,6 @@ body {
   background-size: cover;
 }
 
-//form
-
-#section-five {
-  .row {
-    width: 40%;
-  }
-  .form-adjustment {
-    h1 {
-      color: $my-aqua;
-    }
-    form {
-      .form-control {
-        color: #fff !important;
-        margin-top: 0.5rem;
-      }
-    }
-  }
-}
-
-// thank u
-
-.thank-row {
-  display: flex;
-  justify-content: center;
-}
-.container .row .thank {
-  max-width: 90%;
-  margin-top: 6rem;
-}
-
 //scroll
 
 section {

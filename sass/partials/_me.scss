@@ -2,79 +2,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /*   h1 {
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-
-  .col-me-1 i {
-    font-size: 3rem;
-    margin-left: 2rem;
-  }
-
-  .row-me {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .logo {
-    width: 48px;
-    height: 48px;
-    margin-left: 2rem;
-  }
-
-  .pm-logo {
-    height: 52px;
-    width: auto;
-    margin-left: 1.2rem;
-  }
-  .col-me-1,
-  .col-me-2 {
-    display: flex;
+  .row {
     justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 50%;
-    height: auto;
-  } */
-}
-
-/* #section-two .container .row {
-  width: 100%;
-}
-#section-two .container .row .col-12 {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;*/
-/* From https://css.glass */
-/*background: rgba(255, 255, 255, 0.2);
-
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  h2 {
-    text-align: center;
-    width: 100%;
   }
-} */
-
-/* #section-two .container .row .col-left,
-#section-two .container .row .col-right {
-  height: 320px;
+}
+#section-two .container .row .col-right p {
+  color: $my-grey;
+}
+#section-two .container .row .col-right h3 {
+  color: $my-yellow;
+}
+#section-two .container .row .col-right h2 {
+  color: $my-aqua;
 }
 
-#section-two .container .row .col-left {
-  border-radius: 16px 0 0 16px;
-}
-#section-two .container .row .col-right {
-  border-radius: 0 16px 16px 0;
-} */
+// Skills and Apps
 
 .file-type {
   display: flex;
@@ -104,9 +46,3 @@
     margin-left: 1.2rem;
   }
 }
-
-/* .portrait {
-  border-radius: 100%;
-  width: 150px;
-  height: 200px;
-} */

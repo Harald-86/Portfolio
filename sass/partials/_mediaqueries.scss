@@ -25,6 +25,12 @@
   #section-two .container .row .col-right {
     border-radius: 0 0 16px 16px;
   }
+  #section-four .col-left h2 {
+    text-align: center;
+  }
+  #section-three .container .row h3 {
+    font-size: 1rem !important;
+  }
 }
 //Small
 @media screen and (max-width: 576px) {
@@ -39,5 +45,12 @@
     .row {
       width: 95%;
     }
+  }
+
+  #section-three .container .row ul li {
+    font-size: 0.9rem;
+  }
+  #section-three .container .row .project-container {
+    justify-content: center;
   }
 }

@@ -1,0 +1,27 @@
+#section-three .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section-three .container .row .project-container {
+  color: $my-grey;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  .project {
+    border-bottom: 1px solid $my-aqua;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+#section-three .container .row {
+  h2 {
+    color: $my-aqua;
+  }
+  h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}

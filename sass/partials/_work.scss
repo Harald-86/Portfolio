@@ -29,3 +29,10 @@
     font-weight: bold;
   }
 }
+
+.project {
+  margin: 10px;
+}
+.project:hover {
+  border-top: 1px solid $my-aqua;
+}

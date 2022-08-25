@@ -220,6 +220,10 @@ nav {
   margin-left: 1.2rem;
 }
 
+.mestring {
+  font-weight: bold;
+}
+
 #section-three .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,6 +266,14 @@ nav {
 #section-three .container .row h3, #section-three .container .row .h3 {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.project {
+  margin: 10px;
+}
+
+.project:hover {
+  border-top: 1px solid #00ffec;
 }
 
 #section-four .col-left h2, #section-four .col-left .h2 {

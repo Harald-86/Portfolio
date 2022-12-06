@@ -37,7 +37,11 @@
   border-top: 1px solid $my-aqua;
 }
 
-.slide {
-  width: 100%;
-  height: auto;
+button {
+  border: 1px solid $my-yellow !important;
+  margin: 1rem !important;
+}
+
+button:hover {
+  border: none !important;
 }
